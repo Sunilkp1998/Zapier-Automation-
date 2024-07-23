@@ -1,5 +1,5 @@
 # Automation zap
 
-Here is an image of our logo:
+Here is an image of my project:
 
-images/zap.PNG
+![Project Image](images/zap.PNG)
