@@ -1,10 +1,16 @@
+import { Appbar } from "@/components/Appbar";
+import { Hero } from "@/components/Hero";
+import { HeroVideo } from "@/components/HeroVideo";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    
-           <div className="bg-blue-300 h-14 w-14 justify-between text-center pt-6">
-            Sunil
-            </div>
+      <main className="pb-48">
+             <Appbar/>
+             <Hero/>
+             <div className="pt-8">
+              <HeroVideo/>
+             </div>
+      </main>
   );
 }

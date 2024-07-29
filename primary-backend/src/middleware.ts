@@ -4,7 +4,7 @@ import  jwt  from "jsonwebtoken";
 
 
 
-export function authMiddleware(req: Request, res: Response, next: NextFunction){
+export function authMiddleware(req: Request, res: Response, next: NextFunction) {
     const token = req.headers.authorization as unknown as string;
 
     try {
